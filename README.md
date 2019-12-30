@@ -1,4 +1,4 @@
-# Decision Tree Binary Classifier (From Scratch implementation)
+# Decision Tree Binary Classifier (from scratch implementation)
 
 Description:
 
