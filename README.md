@@ -1,7 +1,7 @@
 # Binary-Classifier
 
 How to Run:
-# python decisionTree.py [args...]
+* python decisionTree.py [args...] *
 1. <train input>: path to the training input .tsv file (see Section 2.1)
 2. <test input>: path to the test input .tsv file (see Section 2.1)
 3. <max depth>: maximum depth to which the tree should be built
