@@ -2,7 +2,6 @@
 
 Description:
 
-
 This code learns a decision tree with a specified maximum depth, predicts the labels of the training and testing examples, and calculates training and testing errors. It uses ID3 algorithm for node selection.
 
 How to Run:
