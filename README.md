@@ -1,7 +1,16 @@
-# Binary-Classifier
+# Decision Tree Binary Classifier (From Scratch implementation)
+
+Description:
+This code learns a decision tree with a specified maximum depth, predicts the labels of the training and testing examples, and calculates training and testing errors. It uses ID3 algorithm for node selection.
+For a split on attribute X,
+I(Y;X) = H(Y ) 􀀀 H(Y jX) = H(Y ) 􀀀 P(X = 0)H(Y jX = 0) 􀀀 P(X = 1)H(Y jX = 1).
+Equivalently, you can calculate I(Y ;X) = H(Y ) + H(X) 􀀀 H(Y;X).
 
 How to Run:
-* python decisionTree.py [args...] *
+Command - python decisionTree.py [args...]
+Where above [args...] is a placeholder for six command-line arguments: <train input> <test
+input> <max depth> <train out> <test out> <metrics out>. These arguments are described
+in detail below:
 1. <train input>: path to the training input .tsv file (see Section 2.1)
 2. <test input>: path to the test input .tsv file (see Section 2.1)
 3. <max depth>: maximum depth to which the tree should be built
