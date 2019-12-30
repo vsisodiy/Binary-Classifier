@@ -1,9 +1,9 @@
 # Decision Tree Binary Classifier (From Scratch implementation)
 
-Description: \n
+Description:
 This code learns a decision tree with a specified maximum depth, predicts the labels of the training and testing examples, and calculates training and testing errors. It uses ID3 algorithm for node selection.
 
-How to Run: \n
+How to Run:
 Command - python decisionTree.py [args...]
 Where above [args...] is a placeholder for six command-line arguments: <train input> <test
 input> <max depth> <train out> <test out> <metrics out>. These arguments are described
